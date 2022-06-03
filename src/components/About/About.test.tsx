@@ -1,12 +1,12 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import About from './About';
 
 
 describe('App component', () => {
   test('it renders', () => {
-    render(<App />);
-    const element = screen.getByText(/Przlicznik/i);
+    render(<About />);
+    const element = screen.getByText(/Kalkulator/i);
     expect(element).toBeInTheDocument();
   });
  })

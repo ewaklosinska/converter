@@ -1,5 +1,5 @@
 import React from "react";
-import TextField from "@mui/material/TextField/TextField";
+import { TextField } from "@mui/material";
 
 interface Props{
     setInputValue: Function;

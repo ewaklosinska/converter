@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-import Grid from "@mui/material/Grid";
-import Button from "@mui/material/Button/Button";
+import { Grid } from "@mui/material";
+import { Button } from "@mui/material";
 
 function NavBar() {
     return(

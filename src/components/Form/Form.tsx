@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from "react";
 import axios from 'axios';
 
-import Grid from "@mui/material/Grid/Grid";
+import { Grid } from "@mui/material";
 
 import Input from "../Input/Input";
 import SelectComponent from "../SelectComponent/SelectComponent"
